@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #05263B; /* Dark blue shade */
+    --secondary-color: #151B25; /* Light blue shade */
+    --tertiary-color: #4c71a8; /* Light gray shade for card backgrounds */
+    --border-color: #BBC8DE; /* Border color for inputs */
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    --backgroundcolor: rgb(82,104,143);
+    --buttoncolor:rgb(25,46,65);
+    --containercolor:rgb(187,200,222);
+    --textboxcolor:rgb(237,237,237);
+    --darktextboxcolor:rgb(188,188,188);
+
+}
+
+body{
+    margin: 0;
+    background-color: var(--backgroundcolor);
+}
+
+
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
